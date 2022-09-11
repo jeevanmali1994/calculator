@@ -3,9 +3,7 @@ package com.calculator.calculator.ds;
 import org.springframework.lang.NonNull;
 
 public class OperationData {
-    @NonNull
     long operandOne,operandTwo;
-    @NonNull
     String operator;
 
     public long getOperandOne() {
